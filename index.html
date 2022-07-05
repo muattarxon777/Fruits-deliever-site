@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=\", initial-scale="1.0">
+
+  <!-- STYLES -->
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/style.css">
+
+
+  <title>Fruits delivering site</title>
+</head>
+
+<body>
+  <!-- SITE-HEADER -->
+  <header class="site-header">
+    <div class="site-header__container container">
+      <a class="logo" href="index.html">
+        <img class="site-header__logo logo__img" src="img/logo.png" alt="Our logo">
+      </a>
+
+      <nav class="site-header__sitenav">
+        <ul class="site-header__list">
+          <li class="site-header__item">
+            <a href="#" class="site-header__link">Mevalar</a>
+          </li>
+          <li class="site-header__item">
+            <a href="#" class="site-header__link">Tibbiy ma'lumotlar</a>
+          </li>
+          <li class="site-header__item">
+            <a href="#" class="site-header__link">Biz haqimizda</a>
+          </li>
+          <li class="site-header__item">
+            <a href="#" class="site-header__link">Buyurtma berish</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="site-header__profile-wrapper">
+        <a class="site-header__profile" href="#">
+          <img class="site-header__profile-img" src="img/man.jpg" alt="Profile avatar">
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- SITE-MAIN -->
+  <main class="main-content">
+    <!-- PRODUCT-PAGE -->
+    <div class="product-page">
+      <div class="product-page__container container">
+        <!-- PRODUCT-PAGE-GALLERY -->
+        <div class="product-page__gallery">
+          <!-- IMG-SHOWCASE -->
+          <div class="img-showcase">
+            <div class="img-showcase__big">
+              <button class="img-showcase__button js-lightbox-opener" type="button" aria-label="Img showcase toggle button"></button>
+              <img class="img-showcase__img" src="img/fruits.jpg" alt="Fruits">
+            </div>
+
+            <ul class="img-showcase__thumbnails">
+              <li class="img-showcase__thumbnail img-showcase__thumbnail--active">
+                <button class="img-showcase__thumbnail-button img-showcase__thumbnail-button--white js-showcase-thumbnail-button" type="button" aria-label="Image 1" data-img-showcase-big="img/apple.jpg">
+                  <img class="img-showcase__thumbnail-img" src="img/apple.jpg" alt="Fruits 1">
+                </button>
+              </li>
+
+              <li class="img-showcase__thumbnail">
+                <button class="img-showcase__thumbnail-button img-showcase__thumbnail-button--white js-showcase-thumbnail-button" type="button" aria-label="Image 2" data-img-showcase-big="img/grapes.jpg">
+                  <img class="img-showcase__thumbnail-img" src="img/grapes.jpg" alt="Fruits 2">
+                </button>
+              </li>
+
+              <li class="img-showcase__thumbnail">
+                <button class="img-showcase__thumbnail-button img-showcase__thumbnail-button--white js-showcase-thumbnail-button" type="button" aria-label="Image 3" data-img-showcase-big="img/kokose.jpg">
+                  <img class="img-showcase__thumbnail-img" src="img/kokose.jpg" alt="Fruits 3">
+                </button>
+              </li>
+
+              <li class="img-showcase__thumbnail">
+                <button class="img-showcase__thumbnail-button img-showcase__thumbnail-button--white js-showcase-thumbnail-button" type="button" aria-label="Image 4" data-img-showcase-big="img/lemon.jpg">
+                  <img class="img-showcase__thumbnail-img" src="img/lemon.jpg" alt="Fruits 4">
+                </button>
+              </li>
+
+              <li class="img-showcase__thumbnail">
+                <button class="img-showcase__thumbnail-button img-showcase__thumbnail-button--white js-showcase-thumbnail-button" type="button" aria-label="Image 5" data-img-showcase-big="img/mandarine.jpg">
+                  <img class="img-showcase__thumbnail-img" src="img/mandarine.jpg" alt="Fruits 5">
+                </button>
+              </li>
+
+              <li class="img-showcase__thumbnail">
+                <button class="img-showcase__thumbnail-button img-showcase__thumbnail-button--white js-showcase-thumbnail-button" type="button" aria-label="Image 6" data-img-showcase-big="img/melon-watermelon.jpg">
+                  <img class="img-showcase__thumbnail-img" src="img/melon-watermelon.jpg" alt="Fruits 6">
+                </button>
+              </li>
+
+              <li class="img-showcase__thumbnail">
+                <button class="img-showcase__thumbnail-button img-showcase__thumbnail-button--white js-showcase-thumbnail-button" type="button" aria-label="Image 7" data-img-showcase-big="img/peach.jpg">
+                  <img class="img-showcase__thumbnail-img" src="img/peach.jpg" alt="Fruits 7">
+                </button>
+              </li>
+
+              <li class="img-showcase__thumbnail">
+                <button class="img-showcase__thumbnail-button img-showcase__thumbnail-button--white js-showcase-thumbnail-button" type="button" aria-label="Image 8" data-img-showcase-big="img/pear.jpg">
+                  <img class="img-showcase__thumbnail-img" src="img/pear.jpg" alt="Fruits 8">
+                </button>
+              </li>
+
+              <li class="img-showcase__thumbnail">
+                <button class="img-showcase__thumbnail-button img-showcase__thumbnail-button--white js-showcase-thumbnail-button" type="button" aria-label="Image 9" data-img-showcase-big="img/pineapple.jpg">
+                  <img class="img-showcase__thumbnail-img" src="img/pineapple.jpg" alt="Fruits 9">
+                </button>
+              </li>
+
+              <li class="img-showcase__thumbnail">
+                <button class="img-showcase__thumbnail-button img-showcase__thumbnail-button--white js-showcase-thumbnail-button" type="button" aria-label="Image 10" data-img-showcase-big="img/plum.jpg">
+                  <img class="img-showcase__thumbnail-img" src="img/plum.jpg" alt="Fruits 10">
+                </button>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+        <!-- PRODUCT-PAGE-INFO -->
+        <div class="product-page-info">
+          <h3 class="product-page-info__title">Mevalar olami</h3>
+          <h2 class="product-page-info__name">Mevalar elitib berish xizmati</h2>
+          <p class="product-page-info__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur corrupti optio eius iste, rem qui blanditiis earum natus, excepturi debitis error asperiores. Accusantium?</p>
+
+          <div class="product-page-info__counter">
+            <div class="product-page-info__cost-block">
+              <h2 class="product-page-info__cost">$2,5.00</h2>
+              <span class="product-page-info__discount">50%</span>
+            </div>
+            <div class="product-page-info_total">$5.00</div>
+          </div>
+
+          <div class="product-page-info__buttons">
+            <div class="product-page-info__button">
+              <button class="product-page-info__press-btn js-decrement-button" type="button"
+                aria-label="Pressable minus">-</button>
+              <p class="product-page-info__number">0</p>
+              <button class="product-page-info__press-btn js-increment-button" type="button"
+                aria-label="Pressable plus">+</button>
+            </div>
+
+            <a href="#" class="button button--block">
+              <span class="button__inner">
+                <span class="button__prepend">
+                  <svg class="button__icon" width="22" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M3.863 3.641h17.062c.583 0 1.01.55.87 1.114l-1.822 7.283a.896.896 0 0 1-.817.677l-14.321.842c.256.598.849 1.01 1.53 1.01h10.008a2.72 2.72 0 0 1 2.717 2.716A2.72 2.72 0 0 1 16.373 20c-1.878 0-3.197-1.872-2.555-3.642H8.913C9.556 18.13 8.233 20 6.358 20 4.1 20 2.83 17.385 4.22 15.611c-.77-.61-1.218-1.508-1.29-2.336l-.98-10.909v.001c.072.796.169 1.876-.051-.575H.896A.896.896 0 0 1 .896 0h1.82c.465 0 .852.354.894.816l.253 2.825Zm1.57 13.642a.926.926 0 0 0 1.85 0 .926.926 0 0 0-1.85 0Zm10.94.925a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm-11.78-6.432 13.801-.811 1.383-5.531H4.024l.57 6.342Z"
+                      fill="currentColor" aria-hidden="true" />
+                  </svg>
+                </span>
+                <span class="button__text">Buyurtma berish</span>
+              </span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox">
+    <div class="lightbox__inner">
+      <button class="lightbox__close js-lightbox-close" type="button" aria-label="Close lightbox">
+        <svg class="lightbox__close-icon" width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M20 2.857 17.143 0 10 7.143 2.857 0 0 2.857 7.143 10 0 17.143 2.857 20 10 12.857 17.143 20 20 17.143 12.857 10 20 2.857Z" fill="currentColor" /></svg>
+      </button>
+
+      <!-- IMG-SHOWCASE -->
+      <div class="img-showcase img-showcase--lightbox">
+        <div class="img-showcase__big">
+          <button class="img-showcase__control img-showcase__control--prev js-lightbox-control-prev" type="button" aria-label="Previous">
+            <span class="img-showcase__control-inner">
+              <svg class="img-showcase__control-icon" width="13" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m11 2-8 8 8 8" stroke="currentColor" stroke-width="3" /></svg>
+            </span>
+          </button>
+
+          <button class="img-showcase__control img-showcase__control--next js-lightbox-control-next" type="button" aria-label="Next">
+            <span class="img-showcase__control-inner">
+              <svg class="img-showcase__control-icon" width="13" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m2 2 8 8-8 8" stroke="currentColor" stroke-width="3" /></svg>
+            </span>
+          </button>
+
+          <img class="img-showcase__img" src="img/fruits.jpg" alt="Fruits">
+        </div>
+
+        <ul class="img-showcase__thumbnails">
+          <li class="img-showcase__thumbnail img-showcase__thumbnail--active">
+            <button class="img-showcase__thumbnail-button img-showcase__thumbnail-button--white js-lightbox-thumbnail-button" type="button" aria-label="Image 1"
+              data-img-showcase-big="img/apple.jpg">
+              <img class="img-showcase__thumbnail-img" src="img/apple.jpg" alt="Fruits 1">
+            </button>
+          </li>
+
+          <li class="img-showcase__thumbnail">
+            <button class="img-showcase__thumbnail-button img-showcase__thumbnail-button--white js-lightbox-thumbnail-button" type="button" aria-label="Image 2"
+              data-img-showcase-big="img/grapes.jpg">
+              <img class="img-showcase__thumbnail-img" src="img/grapes.jpg" alt="Fruits 2">
+            </button>
+          </li>
+
+          <li class="img-showcase__thumbnail">
+            <button class="img-showcase__thumbnail-button img-showcase__thumbnail-button--white js-lightbox-thumbnail-button" type="button" aria-label="Image 3"
+              data-img-showcase-big="img/kokose.jpg">
+              <img class="img-showcase__thumbnail-img" src="img/kokose.jpg" alt="Fruits 3">
+            </button>
+          </li>
+
+          <li class="img-showcase__thumbnail">
+            <button class="img-showcase__thumbnail-button img-showcase__thumbnail-button--white js-lightbox-thumbnail-button" type="button" aria-label="Image 4"
+              data-img-showcase-big="img/lemon.jpg">
+              <img class="img-showcase__thumbnail-img" src="img/lemon.jpg" alt="Fruits 4">
+            </button>
+          </li>
+
+          <li class="img-showcase__thumbnail">
+            <button class="img-showcase__thumbnail-button img-showcase__thumbnail-button--white js-lightbox-thumbnail-button" type="button" aria-label="Image 5"
+              data-img-showcase-big="img/mandarine.jpg">
+              <img class="img-showcase__thumbnail-img" src="img/mandarine.jpg" alt="Fruits 5">
+            </button>
+          </li>
+
+          <li class="img-showcase__thumbnail">
+            <button class="img-showcase__thumbnail-button img-showcase__thumbnail-button--white js-lightbox-thumbnail-button" type="button" aria-label="Image 6"
+              data-img-showcase-big="img/melon-watermelon.jpg">
+              <img class="img-showcase__thumbnail-img" src="img/melon-watermelon.jpg" alt="Fruits 6">
+            </button>
+          </li>
+
+          <li class="img-showcase__thumbnail">
+            <button class="img-showcase__thumbnail-button img-showcase__thumbnail-button--white js-lightbox-thumbnail-button" type="button" aria-label="Image 7"
+              data-img-showcase-big="img/peach.jpg">
+              <img class="img-showcase__thumbnail-img" src="img/peach.jpg" alt="Fruits 7">
+            </button>
+          </li>
+
+          <li class="img-showcase__thumbnail">
+            <button class="img-showcase__thumbnail-button img-showcase__thumbnail-button--white js-lightbox-thumbnail-button" type="button" aria-label="Image 8"
+              data-img-showcase-big="img/pear.jpg">
+              <img class="img-showcase__thumbnail-img" src="img/pear.jpg" alt="Fruits 8">
+            </button>
+          </li>
+
+          <li class="img-showcase__thumbnail">
+            <button class="img-showcase__thumbnail-button img-showcase__thumbnail-button--white js-lightbox-thumbnail-button" type="button" aria-label="Image 9"
+              data-img-showcase-big="img/pineapple.jpg">
+              <img class="img-showcase__thumbnail-img" src="img/pineapple.jpg" alt="Fruits 9">
+            </button>
+          </li>
+
+          <li class="img-showcase__thumbnail">
+            <button class="img-showcase__thumbnail-button img-showcase__thumbnail-button--white js-lightbox-thumbnail-button" type="button" aria-label="Image 10"
+              data-img-showcase-big="img/plum.jpg">
+              <img class="img-showcase__thumbnail-img" src="img/plum.jpg" alt="Fruits 10">
+            </button>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
